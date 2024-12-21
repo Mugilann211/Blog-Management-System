@@ -1,0 +1,177 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Blog List Styles */
+.blog-list {
+  padding: 2rem;
+}
+
+.blog-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.blog-item h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-item p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Blog Details Styles */
+.blog-details {
+  padding: 2rem;
+}
+
+.blog-details h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-details p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.blog-details button {
+  padding: 0.5rem 1rem;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  background-color: #c9302c;
+}
+
+/* Form Styles */
+.blog-form {
+  padding: 2rem;
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+.blog-form button {
+  padding: 0.5rem 1rem;
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-form button:hover {
+  background-color: #31b0d5;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .blog-item {
+    padding: 0.5rem 0;
+  }
+  
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+/* General Blog Item Styling */
+.blog-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-item h2 {
+  font-size: 1.5rem;
+}
+
+.blog-item p {
+  color: #555;
+}
+
+/* Blog Actions Buttons */
+.blog-actions {
+  margin-top: 10px;
+}
+
+.edit-button,
+.delete-button,
+.view-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.view-button:hover {
+  background-color: #0056b3;
+}
+
+/* Button Styling for Delete */
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Styling for View Button */
+.view-button {
+  background-color: #28a745;
+}
+
+.view-button:hover {
+  background-color: #218838;
+}
